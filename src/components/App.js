@@ -38,7 +38,7 @@ const App = () => {
       </Section>
       <Section title="Statistics">
         {!countTotalFeedback() ? (
-          <Notification message="There is not feedback"></Notification>
+          <Notification message="There is not feedback yet."></Notification>
         ) : (
           <Statistics
             good={good}
